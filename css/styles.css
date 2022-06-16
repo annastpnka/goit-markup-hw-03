@@ -66,6 +66,9 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 /* ====== END COMPONENTS ====== */
 /* ====== START HERADER ====== */
@@ -124,10 +127,14 @@ img {
 .contacts-list {
   display: flex;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /* ====== END HEADER ====== */
 /* ====== START HERO ====== */
-.hero {
+main .hero {
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -174,12 +181,8 @@ img {
 
 /* ====== END HERO ====== */
 /* ====== START INTRO */
-.block-intro {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.block-intro-do {
-  padding-bottom: 94px;
+.section-intro {
+  padding-top: 0;
 }
 .intro-list {
   display: flex;
@@ -215,8 +218,6 @@ img {
 /* ====== START COMMAND ====== */
 .block-command {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .command-subtitle {
   font-weight: 500;
@@ -284,13 +285,6 @@ img {
 /* ====== END FOOTER ====== */
 /*___________ PORTFOLIO____________ */
 
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-.portfolio-header {
-  border-bottom: 1px solid #ececec;
-}
 .button-portfolio {
   font-weight: 500;
   font-size: 16px;
