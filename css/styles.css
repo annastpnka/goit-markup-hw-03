@@ -87,6 +87,7 @@ img {
   line-height: 1.19;
   font-family: var(--logo-font);
   margin-right: 92px;
+  padding: 25px 0px;
 }
 .logo-link > span {
   color: var(--main-color);
@@ -97,6 +98,9 @@ img {
 .main-nav-link:hover,
 .main-nav-link:focus {
   color: var(--main-color);
+}
+.main-nav-item {
+  padding: 32px 0px;
 }
 .main-nav-list {
   display: flex;
